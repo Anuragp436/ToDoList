@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/tvTitle"
+            android:textSize="25dp"
+            android:gravity="bottom"
+            android:text="Task1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tvDescription"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_height="35dp"
+            android:text="Task2"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

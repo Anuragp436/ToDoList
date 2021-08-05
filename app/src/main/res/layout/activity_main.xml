@@ -7,27 +7,16 @@
     tools:context=".MainActivity">
 
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="70dp"
+
         tools:listitem="@layout/layout" />
 
-    <EditText
 
-    android:layout_marginTop="680dp"
-    android:layout_width="300dp"
-        android:id="@+id/etIndex"
-    android:hint="Enter Index of ToDo you wanna delete"
-    android:layout_height="200dp"/>
-    <Button
-        android:layout_width="90dp"
-        android:text="DELETE"
-        android:id="@+id/btIndex"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="680dp"
-        android:layout_marginStart="300dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/faButton"
